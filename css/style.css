@@ -1,0 +1,149 @@
+body{
+    background-color:cadetblue;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; /* Thanks Ryan */
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+}
+
+.floatimg {
+    margin: 0px;
+    width: 74px;
+    height: 240px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 0%;
+    z-index:99;
+}
+
+.floatimg:hover { /* Unneccesary */
+    border: 1px dotted yellow;
+}
+
+.floatdiv {
+    margin: 0px;
+    width: 9%;
+    height: 100px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    padding: 0%;
+}
+
+.clicks_p{ /* I love changing the naming system */
+    margin: 0px;
+    padding: 0%;
+    font-weight: 900;
+    font-size: 60px;
+    word-wrap: break-word;
+}
+
+.MoPaddingMoProblems{ /*get it?*/
+    padding: 0px;
+    margin: 0px;
+}
+
+.hidden{
+    margin: 0px;
+    padding: 0%;
+    visibility: hidden;
+}
+
+.hidingdiv{
+    margin: 0px;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 400px;
+    right: 0%;
+    padding: 0%;
+    background-color: cadetblue;
+}
+
+.center {
+    margin: auto;
+    width: 80%;
+    border: 3px dotted black;
+    padding: 0%;
+    text-align: center;
+    background-color:lightblue;
+}
+
+.erm { /* I've forgotten what this is for */
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    border: 3px dotted black;
+    padding: 0%;
+    text-align: center;
+    background-color:lightblue;
+}
+
+.p {
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+.psmall {
+    margin: 0px;
+    text-align: center;
+    padding: 4px;
+    font-size:10px;
+}
+
+.sideimg {
+    margin-bottom: -4px;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+}
+
+.img {
+    margin: -4px;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+}
+
+.titleimg {
+    margin: 0px;
+    width: 35%;
+    text-align: center;
+}
+
+
+.link {
+    font-family: 'Courier New', monospace;
+    font-weight: bolder;
+}
+
+.row {
+    
+    margin-top: 0%;
+    margin-left: calc(10% - 3px);
+    margin-bottom: 0%;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.column { /* DONT TOUCH ANYTHING OTHERWISE EVERYTHING WILL BREAK */
+    float: left;
+    text-align: center;
+    width: calc(calc(80% / 3) - 4px); /* Don't ask me how I got this working */ 
+    margin: 0px;
+    border: 3px dotted black;
+    padding: 0px;
+    background-color:lightblue;
+}
